@@ -11,13 +11,15 @@ Private Methods
 ---------------------------------------
 buildQueue() this builds an ArrayList of 9 queues<Integer>
   
-queueToMain() This empties all the queues into mainbin
+queueToMain() This empties all the queues into mainbin.
   
 addToQueue(tmp,place) This adds an int to a que base on tenths place
   
 getTensPlace(tmp,place) This gets the number in a specified tenths place.
   
 sort() This sorts the list via radix.
+ 
+pop() This returns the first item from the mainbin queue then removes it from the queue.
 -----------------------------------------
   Radix sort uses 10 queues to sort numbers
 -------------------------------------------
