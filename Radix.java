@@ -12,13 +12,13 @@ public class Radix {
         this.in(unsorted);  
     }
     public Radix(){}
+    //Private Methods - 
+    //buildQueue() queueToMain() addToQueue(tmp,place) getTensPlace(tmp,place) sort()
     private int pop(){
         int tmp = this.mainbin.element();
         this.mainbin.remove();
         return tmp;
     }
-    //Private Methods - 
-    //buildQueue() queueToMain() addToQueue(tmp,place) getTensPlace(tmp,place) sort()
     private void buildQueue(){
         this.ArrQueue.clear();
         for (int index =0; index<=9; index++){
