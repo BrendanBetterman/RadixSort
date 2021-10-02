@@ -7,7 +7,7 @@ getSorted() returns int[]
 ---------------------------------------
 Private Methods
 ---------------------------------------
-buildQueue() this builds an ArrayList of 9 queues<Integer> 
+buildQueue() this builds an ArrayList of 9 queues<Integer> \n
 queueToMain() This empties all the queues into mainbin
 addToQueue(tmp,place) This adds an int to a que base on tenths place
 getTensPlace(tmp,place) This gets the number in a specified tenths place.
