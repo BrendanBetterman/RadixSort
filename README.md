@@ -20,6 +20,7 @@ getTensPlace(tmp,place) This gets the number in a specified tenths place.
 sort() This sorts the list via radix.
  
 pop() This returns the first item from the mainbin queue then removes it from the queue.
+  
 -----------------------------------------
   Radix sort uses 10 queues to sort numbers
 -------------------------------------------
