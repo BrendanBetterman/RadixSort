@@ -52,9 +52,7 @@ public class Radix {
         return tmpmod;
     }
     private void sort(){
-        int tmp;
-        int length;
-        int tmpMod;
+        int tmp,length;
         for (int j = 0; j<radixNumLen; j ++){
             length = this.mainbin.size();
             for (int i = 0; i<length; i++){
