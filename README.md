@@ -5,6 +5,7 @@ Public Methods
 in(int[]) pass in a list to be sorted.
 
 getSorted() returns int[] 
+
 ---------------------------------------
 Private Methods
 ---------------------------------------
