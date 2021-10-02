@@ -7,10 +7,14 @@ getSorted() returns int[]
 ---------------------------------------
 Private Methods
 ---------------------------------------
-buildQueue() this builds an ArrayList of 9 queues<Integer> \n
+buildQueue() this builds an ArrayList of 9 queues<Integer>
+  
 queueToMain() This empties all the queues into mainbin
+  
 addToQueue(tmp,place) This adds an int to a que base on tenths place
+  
 getTensPlace(tmp,place) This gets the number in a specified tenths place.
+  
 sort() This sorts the list via radix.
 -----------------------------------------
   Radix sort uses 10 queues to sort numbers
