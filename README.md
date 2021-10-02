@@ -3,6 +3,7 @@ Java Radix-Sort Object Orientated
 Public Methods
 ---------------------------------------
 in(int[]) pass in a list to be sorted.
+
 getSorted() returns int[] 
 ---------------------------------------
 Private Methods
@@ -22,7 +23,9 @@ sort() This sorts the list via radix.
   How to use
   
   Radix OBJNAME = new Radix();
+  
   OBJNAME.in(new int[]{?,?,?,?});
+  
   OBJNAME.getSorted();
   
   or 
